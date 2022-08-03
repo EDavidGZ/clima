@@ -1,0 +1,86 @@
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to left top, #5ffbf1, #5bf3ee, #59ebea, #57e3e6, #56dbe2, #69dbea, #7ddbf0, #90daf3, #b7e1fc, #d7e9ff, #eff3ff, #ffffff);
+}
+
+.ps{
+    position: relative;
+    left: 30%;
+    margin-top: 4.5rem;
+    padding-top: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 10rem;
+    
+}
+
+.card {
+    background-image: linear-gradient(to left top, #b4e0dd, #b5e0de, #b6e0df, #b7dfdf, #b8dfe0, #bee1e6, #c5e3ea, #cde5ee, #dcebf4, #eaf1f9, #f6f7fc, #ffffff);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .ps{
+        left: 10%;
+        margin-bottom: 3rem;
+    }
+    body {
+        height: 150vh;
+    }
+    .img-fluid {
+        width: 80%;
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        height: 150vh;
+    }
+    .img-fluid {
+        width: 15%;
+        height: 15vh;
+    }
+    
+    .ps{
+        left: 5%;
+        margin-bottom: 3rem;
+    }
+    .card{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        height: 150vh;
+    }
+    .img-fluid {
+        width: 15%;
+        height: 15vh;
+    }
+    
+    .ps{
+        left: 5%;
+        margin-bottom: 3rem;
+    }
+    .card{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        height: 150vh;
+    }
+    
+    .img-fluid {
+        width: 15%;
+        height: 15vh;
+    }
+    .ps{
+        left: 2%;
+        margin-bottom: 3rem;
+    }
+    .card{
+        width: 80%;
+    }
+}
