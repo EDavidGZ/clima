@@ -23,7 +23,7 @@ const setWeatherData = data => {
     })
     if (weatherData.description == 'Clouds'){
         document.foto.src = 'nublado.png'
-    } else if (weatherData.description == 'Sun'){
+    } else if (weatherData.description == 'Clear'){
         document.foto.src = 'sun.png'
     }else if (weatherData.description == 'Rain'){
         document.foto.src ='rain.png'
